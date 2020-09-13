@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<!--miniprogram/pages/index/pages/compass/compass.wxml-->
+<view class="container">
+<view class="view-row" style="color:#aaa;font-size:36rpx;margin:30rpx;border-bottom:1rpx solid #aaa;padding:10rpx">hardware</view>
+  <view style="font-size:32rpx;color:#aaa">指南针</view>
+  <image style="position:fixed;z-index:5;margin-top:190rpx;width:400rpx;height:400rpx;transform: rotate({{rotate}}deg);" src="./dial.png"></image>
+  <image style="position:fixed;z-index:6;margin-top:190rpx;width:400rpx;height:400rpx;" src="./pointer.png"></image>
+  <view style="font-size:60rpx;margin-top:450rpx;">{{area}}  {{detailArea}}°</view>
+</view>

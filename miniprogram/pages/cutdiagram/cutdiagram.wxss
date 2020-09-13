@@ -1,0 +1,106 @@
+/**index.wxss**/ 
+page {
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.sudoku {
+  height: 100%;
+}
+
+.canvas-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.canvas {
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.canvas-in {
+  z-index: 0;
+}
+
+.canvas-out {
+  z-index: 99;
+  background-color: #fff;
+}
+
+.imgs{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.imgs-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8rpx;
+  box-sizing: border-box;
+}
+
+.img{
+  flex-shrink: 0;
+  width: 33.3%;
+  padding: 5rpx;
+  box-sizing: border-box;
+}
+
+.btns-box {
+  position: fixed;
+  right: 30rpx;
+  bottom: 120rpx;
+  z-index: 999;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 300rpx;
+}
+
+.btn {
+  color: #fff;
+  width: 100rpx;
+  height: 100rpx;
+  border: none;
+  border-radius: 60rpx;
+}
+
+.wx-button-cover-view-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wx-button-cover-view-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn::after {
+  border: none;
+}
+
+.btn-cut {
+  background-color: rgba(44, 42, 165, 0.5);
+}
+
+.btn-save {
+  background-color: rgba(200, 240, 56, 0.5);
+}

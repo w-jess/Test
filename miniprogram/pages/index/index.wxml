@@ -1,0 +1,85 @@
+<!--index.wxml-->
+<view class="container">
+
+    <!-- 欢迎栏 -->
+  <view class="wecome">
+   <image class="image-homepage" src="../../images/homepage.png" mode="aspectFit"></image>
+
+  </view>
+
+  <!--选项栏-->
+<view class="tt">
+ 
+  <view class="tr" >
+  
+  
+   <view class="th">
+     <navigator url="../bulletscreen/bulletscreen" hover-class="none" class="lianjie">
+     <i class="fa fa-rocket iconbtn" aria-hidden="true"></i>
+     <view>
+     <text>手持弹幕</text>
+     <view class="textenglish">BulletScreen</view>
+     </view>
+     </navigator>
+  </view>
+   
+  <view class="th">
+     <navigator url="../cutdiagram/cutdiagram" hover-class="none" class="lianjie">
+     <i class="fa fa-picture-o iconbtn" aria-hidden="true"></i>
+     <view>
+     <text>九宫切图</text>
+     <view class="textenglish">CutDragram</view>
+     </view>
+     </navigator>
+  </view>
+</view>
+
+
+<view class="tr">
+  <view class="th">
+   <navigator  url="../tasklist/tasklist" hover-class="none" class="lianjie">
+   <i class="fa fa-flag iconbtn" aria-hidden="true"></i>
+   <view>
+   <text>任务清单</text>
+   <view class="textenglish">TaskList</view>
+   </view>
+   
+   </navigator>
+  </view>
+  
+  <view class="th">
+  <navigator url="../whiteboard/whiteboard" hover-class="none" class="lianjie">
+  <i class="fa fa-pencil iconbtn" aria-hidden="true"></i>
+  <view>
+  <text>写字板</text>
+  <view class="textenglish">WhiteBoard</view>
+  </view>
+  </navigator>
+  </view>
+</view>
+
+<view class="tr">
+  <view class="th">
+   <navigator  url="../compass/compass" hover-class="none" class="lianjie">
+   <i class="fa fa-compass iconbtn" aria-hidden="true"></i>
+   <view>
+   <text>指南针</text>
+   <view class="textenglish">Compass</view>
+   </view>
+   </navigator>
+  </view>
+  
+  <view class="th">
+  <navigator url="#" hover-class="none" class="lianjie">
+  <i class="fa fa-cube iconbtn" aria-hidden="true"></i>
+  <view>
+  <text>敬请期待</text>
+  <view class="textenglish">ComingSoon</view>
+  </view>
+
+  </navigator>
+  </view>
+</view>
+
+ </view>
+</view>
